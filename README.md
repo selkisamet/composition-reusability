@@ -1,8 +1,49 @@
-# React + Vite
+# Yeniden Kullanılabilirlik (Composition Reusability)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu projenin ne yaptığı ve kimin için olduğu hakkında kısa bir açıklama
+Bir accordion oluşturuldu, ve componentler ufak parçalara ayrılarak yeniden kullanılabilirlik (composition reusability) yaklaşımı uygulandı.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Kurulum ve Projeyi Başlatma
+Projeyi kurup çalıştırmak için aşağıdaki yönergeleri takip etmelisiniz.
+
+#### Vite'nin Global Olarak Kurulması
+
+```bash
+  npm install -g create-vite
+```
+
+#### Projenin Kopyalanması
+
+```bash
+  git clone https://github.com/selkisamet/composition-reusability.git
+```
+
+#### Proje Dizinine Geçme
+
+```bash
+  cd composition-reusability
+```
+
+#### Visual Studio Code'de çalıştırılması
+Terminalde uygulamanın kök dizinindeyken aşağıdaki komutu çalıştırmalısınız.
+
+```bash
+  code .
+```
+
+#### Bağımlılıkların Yüklenmesi
+
+```bash
+   npm install
+```
+
+#### Uygulamanın Çalıştırılması
+
+```bash
+   npm run dev
+```
+
+#### Uygulamayı Görüntüle
+
+http://localhost:3000
